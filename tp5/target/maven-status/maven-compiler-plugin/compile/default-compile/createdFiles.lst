@@ -1,0 +1,10 @@
+com\example\exercice2\Professeur.class
+com\example\exercice3\ProfesseurServiceImpl.class
+com\example\exercice1\Factorial.class
+com\example\Main.class
+com\example\exercice2\Main.class
+com\example\exercice2\IProfesseurDAO.class
+com\example\exercice2\ProfesseurDAOImpl.class
+com\example\exercice3\ProfesseurDAO.class
+com\example\exercice3\ProfesseurService.class
+com\example\exercice3\Professeur.class
