@@ -10,6 +10,9 @@ public class Professeur {
     public Professeur() {}
 
     public Professeur(int id, String nom, String specialite) {
+        if (id < 0) {
+            throw new IllegalArgumentException("L'ID ne peut pas être négatif.");
+        }
         this.id = id;
         this.nom = nom;
         this.specialite = specialite;
@@ -20,6 +23,9 @@ public class Professeur {
     }
 
     public void setId(int id) {
+        if (id < 0) {
+            throw new IllegalArgumentException("L'ID ne peut pas être négatif.");
+        }
         this.id = id;
     }
 
